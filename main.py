@@ -53,7 +53,7 @@ def read_root():
             <div class="container">
                 <h1>API Funcional 🚀</h1>
                 <p>Bienvenido al sistema de predicción de riesgo.</p>
-                <p>Usando el modelo <code>mejor_modelo_julio_11-8-22</code>.</p>
+                <p>Usando el modelo <code>mejor_modelo_julio_11-8-22</code>. </p>
                 <p>Usa el endpoint <code>/model_predict</code> via POST con un archivo XLSX para obtener predicciones.</p>
                 <p>Estado del servicio: <span style="color: green; font-weight: bold;">Operativo</span></p>
             </div>
