@@ -14,7 +14,7 @@ df1 = None
 @app.on_event("startup")
 def load_assets():
     global model1, df1
-    with open('mejor_modelo_score_febrero_25.pkl', 'rb') as f:
+    with open('mejor_modelo_julio_11-8-22', 'rb') as f:
         model1 = pickle.load(f)
     df1 = pd.read_excel('df1.xlsx')
 
