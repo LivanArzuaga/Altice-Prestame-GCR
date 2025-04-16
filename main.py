@@ -11,7 +11,7 @@ app = FastAPI()
 model1 = None
 df1 = None
 
-with open('mejor_modelo_julio_11-8-22', 'rb') as f:
+with open('mejor_modelo_julio_11-8-22.pkl', 'rb') as f:
     model1 = pickle.load(f)
 df1 = pd.read_excel('df1.xlsx')
 
